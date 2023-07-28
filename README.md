@@ -15,3 +15,6 @@ The tableDEMO.py shows the main functions that will be used. There will be other
 
 In the codeBase folder is the code itself. Act.py is where the main functions that will be called are in. Dep.py is most of the dependant functions that are used by act.py and lastly const.py is some default variables I use for the allValues base table.
 
+https://github.com/CigamPower/SoME3-Divide-Even-By-2-Until-Odd/assets/43964088/06146fa5-a44b-4fc6-8cd7-0ab287237d01
+
+
