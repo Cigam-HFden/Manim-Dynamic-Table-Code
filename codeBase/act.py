@@ -866,7 +866,6 @@ def replaceTableListLines(
 	return allValues
 	pass
 
-#TODO I think this is broken somehow in the copy not sure
 ## scale the table by new font size or overall scale
 def scaleTableFontSize(
 	argSelf,
@@ -895,10 +894,10 @@ def scaleTableFontSize(
 	allValues[4] = []
 	if doHighlight == None:
 		for i in range(len(oldVgrList)):
-			allValues[4].append(dep.styleCopyCell(
+			newVgrList[i] = dep.styleCopyCell(
 				oldVgrList[i],newVgrList[i],styleList
-			))
-	newStyleVgroup = makeVgroup(allValues[4])
+			)
+	newStyleVgroup = makeVgroup(newVgrList)
 	alignTo :np.ndarray= oldVgroup.get_critical_point(UL)
 	newStyleVgroup.move_to(alignTo, aligned_edge=UL)
 	transformVgroup(
@@ -906,6 +905,7 @@ def scaleTableFontSize(
 		oldVgroup,
 		newStyleVgroup,
 	)
-	argSelf.remove(oldVgroup)
+	argSelf.remove(newStyleVgroup)
+	allValues[4] = oldVgrList
 	return allValues
 	pass
