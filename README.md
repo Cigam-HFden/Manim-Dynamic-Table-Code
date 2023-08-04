@@ -2,7 +2,9 @@
 Code I wrote for my SoME3 Presentation about division of numbers. Specifically I made it for how many times an Even number can be divided by 2 until it reaches Odd.
 
 # Presentation
-WIP
+Still very much a work in progress, but currently is:
+
+https://github.com/CigamPower/SoME3-Divide-Even-By-2-Until-Odd/assets/43964088/9469281d-ebff-4016-bec6-c4e2004456a3
 
 # Table Demo
 This code is provided as-is, if you want to use it or improve upon it then feel free. I wound up writing this table code since the base Manim code did not seem to have the functions I wanted to do with a table. If someone would like to implement this or something like this into Manim itself that might be helpful to others. For now though if anyone has a need of it, this at least mostly works.
@@ -15,4 +17,4 @@ The tableDEMO.py shows the main functions that will be used. There will be other
 
 In the codeBase folder is the code itself. Act.py is where the main functions that will be called are in. Dep.py is most of the dependant functions that are used by act.py and lastly const.py is some default variables I use for the allValues base table.
 
-https://github.com/CigamPower/SoME3-Divide-Even-By-2-Until-Odd/assets/43964088/08ff1d60-fcab-4f1f-9df4-f0ba3c8acf6a
+https://github.com/CigamPower/SoME3-Divide-Even-By-2-Until-Odd/assets/43964088/8c7a7722-0645-4b26-acfb-5ae5f52d5fce
