@@ -494,6 +494,22 @@ def getValListFromIdxSubList(
 	return valList
 	pass
 
+## set a value from one list using the index from a sub list
+def setValListFromIdxSubList(
+	argSelf,
+	fromList :list,
+	toList :list,
+	idxSubList :list,
+) -> list:
+	setList :list= fromList
+	for i in range(len(idxSubList)):
+		for s in range(len(idxSubList[i])):
+			remList :list= setList[idxSubList[i][s]]
+			setList[idxSubList[i][s]] = toList[idxSubList[i][s]]
+			argSelf.remove(remList)
+	return setList
+	pass
+
 ## get the single list index for each sub list insert col row
 def getCellIndexList(
 	cellSelect :list,

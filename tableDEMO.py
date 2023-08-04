@@ -8,7 +8,6 @@
 # Demo for table code functions I wrote for the presentation
 # ---Utils---
 # Manim Community Edition v0.17.3
-# Manim Voiceover v0.3.3.post0
 # MikTex v23.4
 # ffmpeg v4.2.3
 # python v3.11.4

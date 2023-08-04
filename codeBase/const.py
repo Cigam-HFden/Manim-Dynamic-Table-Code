@@ -22,9 +22,11 @@ ColorRec :Colors= BLACK
 ColorStrokeTxt :Colors= BLACK
 ColorStrokeRec :Colors= WHITE
 #highlight
-HighColorTxt :Colors= [PURE_GREEN,ORANGE]
+HighColorTxt :Colors= WHITE
+# HighColorTxt :Colors= [PURE_GREEN,ORANGE]
 HighColorRec :Colors= [PURE_BLUE,PURE_RED]
-HighColorStrokeTxt :Colors= [MAROON_E,BLACK]
+HighColorStrokeTxt :Colors= BLACK
+# HighColorStrokeTxt :Colors= [MAROON_E,BLACK]
 HighColorStrokeRec :Colors= [ORANGE,PURE_GREEN]
 #other
 OpacityTxt :float= 1

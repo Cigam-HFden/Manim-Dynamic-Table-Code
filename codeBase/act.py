@@ -840,9 +840,12 @@ def shimmerStyleSelected(
 	playShimmerList(
 		argSelf,oldList,newList,timeRun,timeWait
 	)
-	for i in range(len(allValues[4])):
-		argSelf.remove(allValues[4][i])
-	allValues[4] = dcVgrList
+	allValues[4] = dep.setValListFromIdxSubList(
+		argSelf,
+		allValues[4],
+		dcVgrList,
+		noDupList,
+	)
 	return allValues
 	pass
 
