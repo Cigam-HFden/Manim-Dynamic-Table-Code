@@ -89,9 +89,9 @@ def makeIntroTitle(
 	argSelf,
 	runTime :float= const.TimeRun,
 ) -> list:
-	title = Tex("Divide Even by 2 Until Odd", font_size=72)
+	title = Tex("Divide Even By 2 Until Odd", font_size=72)
 	maker = Tex("Cigam", font_size=54)
-	equat = MathTex(r"\lceil \log_{D} (\gcd ( { D^{\lfloor\log_{D}N\rfloor} }, {N} ) ) \rceil")
+	equat = MathTex(r"\log_{D} (\gcd ( { D^{\lfloor\log_{D}N\rfloor} }, {N} ) )")
 	VGroup(title, maker, equat).arrange(DOWN)
 	argSelf.play(
 		Write(title),

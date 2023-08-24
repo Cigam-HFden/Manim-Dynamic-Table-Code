@@ -1,10 +1,5 @@
-# SoME3 Divide Even By 2 Until Odd
-Code I wrote for my SoME3 Presentation about division of numbers. Specifically I made it for how many times an Even number can be divided by 2 until it reaches Odd.
-
-# Presentation
-Still very much a work in progress, but currently is:
-
-https://github.com/CigamPower/SoME3-Divide-Even-By-2-Until-Odd/assets/43964088/9469281d-ebff-4016-bec6-c4e2004456a3
+# Information
+I cancelled doing this, because after further testing the formula I thought was working, in fact was not. I left the code I was working on, even though it is invalid at this point. I also attached my spreadsheet where I was testing to get it to work on other numbers besides 2, but none of them were working consistently. So this repo is mainly for the Manim table code, if that is useful to any of you.
 
 # Table Demo
 This code is provided as-is, if you want to use it or improve upon it then feel free. I wound up writing this table code since the base Manim code did not seem to have the functions I wanted to do with a table. If someone would like to implement this or something like this into Manim itself that might be helpful to others. For now though if anyone has a need of it, this at least mostly works.

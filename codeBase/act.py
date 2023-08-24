@@ -441,7 +441,7 @@ def deleteTableListLines(
 	playRemove :list= []
 	playMovers :list= []
 	for i in range(len(vgrNullLines)):
-		vgrNullLines[i].set_z_index(-1)
+		# vgrNullLines[i].set_z_index(-1)
 		playRemove.append(Unwrite(vgrNullLines[i]))
 	for i in range(len(vgrKeepLines),):
 		playMovers.append(
@@ -644,7 +644,7 @@ def insertTableListLines(
 	playMovers :list= []
 
 	if preAdd:
-		insVgrGroup[0].set_z_index(-1)
+		# insVgrGroup[0].set_z_index(-1)
 		insVgrGroup[0].move_to(
 			oriVgrGroup[0].get_critical_point(prePoint),
 			aligned_edge=prePoint
@@ -673,7 +673,7 @@ def insertTableListLines(
 			alignTo = dep.getMovedPoint(
 				oriVgrGroup[i-1],alignTo,prePoint,posPoint
 			)
-			insVgrGroup[i-(1-preAdd)].set_z_index(-1)
+			# insVgrGroup[i-(1-preAdd)].set_z_index(-1)
 			insVgrGroup[i-(1-preAdd)].move_to(
 				alignTo,aligned_edge=prePoint
 			)
@@ -689,7 +689,7 @@ def insertTableListLines(
 		alignTo = dep.getMovedPoint(
 			oriVgrGroup[oriLen-1],alignTo,prePoint,posPoint
 		)
-		insVgrGroup[insLen-1].set_z_index(-1)
+		# insVgrGroup[insLen-1].set_z_index(-1)
 		insVgrGroup[insLen-1].move_to(
 			alignTo,aligned_edge=prePoint
 		)
@@ -705,8 +705,8 @@ def insertTableListLines(
 		reverse = False,
 		run_time = timeRun/timeDiv,
 	)
-	for i in range(insLen):
-		insVgrGroup[i].set_z_index(0)
+	# for i in range(insLen):
+	# 	insVgrGroup[i].set_z_index(0)
 	if doTimeWait:
 		argSelf.wait(timeWait)
 
